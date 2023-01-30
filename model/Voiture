@@ -1,0 +1,7 @@
+const mongoose = require("mongoose");
+
+const VehiculeSchema = new mongoose.Schema({
+
+}, { strict: false });
+const Vehicule = mongoose.model('Voiture', VehiculeSchema);
+module.exports = Vehicule;

@@ -1,0 +1,7 @@
+const mongoose = require("mongoose");
+
+const DepotSchema = new mongoose.Schema({
+
+}, { strict: false });
+const Depot = mongoose.model('Depot', DepotSchema);
+module.exports = Depot;
